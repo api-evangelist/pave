@@ -1,8 +1,25 @@
 aid: pave
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pave.png
 name: Pave
-description: Pave is a company surfaced as a portfolio company of a16z, bessemer-venture-partners, craft-ventures,
-  index-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead
-  awaiting the enrichment pipeline.
+description: Pave is an AI-native compensation management platform that helps organizations
+  make data-driven pay decisions. It combines real-time market benchmarking (compensation
+  data sourced from 9,000+ companies), automated market pricing and salary-range building,
+  merit-cycle and compensation-planning workflows, an employee-facing total rewards
+  portal, and visual offer letters into one system. Pave connects to HRIS, ATS, equity-management,
+  and performance-management systems to create a single source of truth for an organization's
+  compensation ecosystem. Pave does not currently publish a public developer API or
+  developer portal; its integration surface is inbound connectors to systems of record.
 url: https://raw.githubusercontent.com/api-evangelist/pave/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Compensation
+- Human Resources
+- Compensation Benchmarking
+- Market Data
+- People Analytics
+- HR Tech
+- Total Rewards
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +51,33 @@ maintainers:
 common:
 - type: Website
   url: https://www.pave.com/
+- type: Pricing
+  url: https://www.pave.com/pricing
+- type: Support
+  url: https://support.pave.com/hc/en-us
+- type: Blog
+  url: https://www.pave.com/insights
+- type: Integrations
+  url: https://www.pave.com/products/integrations
+- type: TermsOfService
+  url: https://www.pave.com/company/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.pave.com/company/legal/privacy-policy
+- type: TrustCenter
+  url: https://trust.pave.com/
+- type: Compliance
+  url: https://www.pave.com/company/security-and-privacy
+- type: DomainSecurity
+  url: security/pave-domain-security.yml
+- type: TrustCenter
+  name: Trust Center artifact
+  url: security/pave-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/pave-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.pave.com/company/security-and-privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
